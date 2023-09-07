@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokedex</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/pokedex.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pokedex.css" />
+    <link rel="stylesheet" href="css/modal.css" />
     <link href="/img/favicon.ico" rel="icon" type="image/x-icon">
     <script src="js/pokemon-model.js" defer></script>
     <script src="js/poke-api.js" defer></script>
     <script src="js/scripit.js" defer></script>
-</head>
-<body>
+    <script src="js/modal.js" defer></script>
+  </head>
+
+  <body>
     <section class="content">
-    
-    <a href="details.html"><h1>Pokedex</h1></a>
-    <ol id="pokemonList" class="pokemons">
-        <!-- ..... Pokemons here ..... -->
-    </ol>
-            </div>
-            
-        </li>
-    </ol>
-    <div class="pagination">
-        <button id="mostrarMais" type="button">
-            Mostrar Mais
-        </button>
-    </div>
-</section>
-    
-</body>
+      <h1>Pokedex</h1>
+
+      <ol id="pokemonList" class="pokemons"></ol>
+
+      <div id="modals" class="modals"></div>
+
+      <div class="pagination">
+        <button id="mostrarMais" type="button">Mostrar Mais</button>
+      </div>
+    </section>
 </html>

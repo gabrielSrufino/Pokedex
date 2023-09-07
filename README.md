@@ -1,5 +1,5 @@
 # POKEDEX
 
-# PROJETO em desenvolvimento
+# PROJETO CONCLUÍDO!
 
-### Projeto em desenvolvimento com html, css, javascript, API: pokeApi, e fundamentos de protocolo http.
+### Projeto realizado com html, css, javascript, API: pokeApi, e fundamentos de protocolo http.
